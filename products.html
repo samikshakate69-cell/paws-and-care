@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products & Services- Paws & Care</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About & Pets</a>
+            <a href="products.html">Products & Services</a>
+            <a href="gallery.html">Gallery & Offers</a>
+            <a href="contact.html">Contact & Enquiry</a> 
+        </nav>
+        <h1>Products & Services</h1>
+        <h2>Pet Products</h2>
+        <p>We provide quality products for your pets.</p>
+        <div class="search-box">
+            <input type="text" id="searchBox" placeholder="Search pet products...">
+            <button type="button" onclick="searchProducts()">Search</button>
+        </div>
+        <h3>1. Pet Food</h3>
+        <p>Cart: <span id="cartCount">0</span></p>
+        <p>Healthy and nutritious food for pets.</p>
+        <div class="pet-food">
+            <div>
+                <img src="images/dogfoods.jpg.png" width="180">
+                <p>Dog Food</p>
+                 <p>Price: Rs. 250</p>
+                 <button onclick="addToCart('Dog Food')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/catfood.jpg.png" width="180">
+                <p>Cat Food</p>
+                <p>Price: Rs. 200</p>
+                <button onclick="addToCart('Cat Food')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/rabbitfood.jpg.png" width="180">
+                <p>Rabbit Food</p>
+                <p>Price: Rs. 150</p>
+                <button onclick="addToCart('Rabbit Food')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/birdfood.jpg.png" width="180">
+                <p>Bird Food</p>
+                <p>Price: Rs. 100</p>
+                <button onclick="addToCart('Bird Food')">Add to Cart</button>
+            </div>
+        </div>
+        <h3>2. Pet accessories</h3>
+        <p>collars, toys, bowls and pet accessories.</p>
+        <div class="pet-accessories">
+            <div>
+                <img src="images/dogaccessory.jpg.png" alt="Dog Accessories">
+                <p>Dog Accessories</p>
+                <p>Price: Rs. 150</p>
+                <button onclick="addToCart('Dog Accessories')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/cataccessory.jpg.png" alt="Cat Accessories">
+                <p>Cat Accessories</p>
+                <p>Price: Rs. 100</p>
+                <button onclick="addToCart('Cat Accessories')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/rabbitaccessory.jpg.png" alt="Rabbit Accessories">
+                <p>Rabbit Accesssories</p>
+                <p>Price: Rs. 120</p>
+                <button onclick="addToCart('Rabbit Accessories')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/birdaccessory.jpg.png" alt="Rabbit Accessories">
+                <p>Bird Accessories</p>
+                <p>Price: Rs. 180</p>
+                <button onclick="addToCart('Bird Accessories')">Add to Cart</button>
+            </div>
+        </div>
+        <h3>3. Pet Care Services</h3>
+        <p>Grooming, bathing and basic pet care services.</p>
+        <div class="care-row">
+            <div>
+                <img src="images/dogcare.jpg.png" alt="Dog Care">
+                <p>Dog Care</p>
+                <p>Price: Rs. 300</p>
+                <button onclick="addToCart('Dog Care')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/catcare.jpg.png" alt="Cat Care">
+                <p>Cat Care</p>
+                <p>Price: Rs. 250</p>
+                <button onclick="addToCart('Cat Care')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/rabbitcare.jpg.png" alt="Rabbit Care">
+                <p>Rabbit Care</p>
+                <p>Price: Rs. 200</p>
+                <button onclick="addToCart('Rabbit Care')">Add to Cart</button>
+            </div>
+            <div>
+                <img src="images/birdcare.jpg.png" alt="Bird Care">
+                <p>Bird Care</p>
+                <p>Price: Rs. 150</p>
+                <button onclick="addToCart('Bird Care')">Add to Cart</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery & Offers - Paws & Care</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About & Pets</a>
+            <a href="products.html">Products & Services</a>
+            <a href="gallery.html">Gallery & Offers</a>
+            <a href="contact.html">Contact & Enquiry</a>
+        </nav>
+        <h1>Gallery & Offers</h1>
+        <h2>Our Pet Gallery</h2>
+        <p>Explore our lovely pets and pet care products.</p>
+        <h3>Dogs</h3>
+        <p>Friendly and adorable dogs.</p>
+        <div class="gallery-row">
+            <div>
+                <img src="images/dogs1.jpg.png" alt="Dog 1">
+            </div>
+            <div>
+                <img src="images/dogs2.jpg.png" alt="Dog 2">
+            </div>
+            <div>
+                <img src="images/dogs3.jpg.png" alt="Dog 3">
+            </div>
+        </div>
+        <h3>Cats</h3>
+        <p>Beautiful and playful cats.</p>
+        <div class="gallery-row">
+            <div>
+                <img src="images/cats1.jpg.png" alt="Cat 1">
+            </div>
+            <div>
+                <img src="images/cats2.jpg.png" alt="Cat 2">
+            </div>
+            <div>
+                <img src="images/cats3.jpg.png" alt="Cat 3">
+            </div>
+        </div>
+        <h3>Rabbits</h3>
+        <p>Cute and gentle rabbits.</p>
+        <div class="gallery-row">
+            <div>
+                <img src="images/rabbits1.jpg.png" alt="Rabbit 1">
+            </div>
+            <div>
+                <img src="images/rabbits2.jpg.png" alt="Rabbit 2">
+            </div>
+            <div>
+                <img src="images/rabbits3.jpg.png" alt="Rabbit 3">
+            </div>
+        </div>
+        <h3>Birds</h3>
+        <p>Colorful and lovely birds.</p>
+        <div class="gallery-row">
+            <div>
+                <img src="images/birds1.jpg.png" alt="Bird 1" onclick="openGalleryPhoto(this)">
+            </div>
+            <div>
+                <img src="images/birds2.jpg.png" alt="Bird 2" onclick="openGalleryPhoto(this)">
+            </div>
+            <div>
+                <img src="images/birds3.jpg.png" alt="Bird 3" onclick="openGalleryPhoto(this)">
+            </div>
+        </div>
+        <h3>Pet Accessories</h3>
+        <p>Explore toys, collars and other pet accessories.</p>
+        <div class="gallery-row">
+            <div>
+                <img src="images/accessory1.jpg.png" alt="Dog Accessories">
+            </div>
+            <div>
+                <img src="images/accessory2.jpg.png" alt="Cat Accessories">
+            </div>
+            <div>
+                <img src="images/accessory4.jpg.png" alt="Rabbit Accessories">
+            </div>
+            <div>
+                <img src="images/accessory3.jpg.png" alt="Bird Accessories">
+            </div>
+        </div>
+        <h2>Special Offers</h2>
+        <p>Get exciting offers on selected pet products.</p>
+        <p>Visit Paws & Care Pet Shop for more details!</p>
+        <div class="offers">
+            <div>
+                <h3>20% Off Pet Food</h3>
+                <p>Get 20% discount on selected pet food.</p>
+            </div>
+            <div>
+                <h3>15% Off Accessories</h3>
+                <p>Enjoy 15% discount on pet accessories.</p>
+            </div>
+            <div>
+                <h3>10% Off Grooming</h3>
+                <p>Get 10% discount on grooming services.</p>
+            </div>
+        </div>
+        <div id="photoViewer" onclick="closeGalleryPhoto()">
+            <img id="bigPhoto" src="" alt="Large pet photo">
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

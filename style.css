@@ -1,0 +1,384 @@
+body {
+    background-color: #fff5f0 ;
+    font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+h1 {
+    color: #e8753e;
+    text-align: center;
+}
+h2 {
+    color: #8b4513;
+}
+nav {
+    background-color: #8b4513;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #d2691e;
+    text-align: center;
+}
+p {
+    color: #444;
+    font-size: 18px;
+}
+h2 {
+    color: #8b4513;
+    text-align: center;
+    margin-top: 30px;
+}
+ul {
+    width: 250px;
+    margin: 20px auto;
+    background-color: #fff0e0;
+    padding: 20px 20px 20px 40px;
+    border-radius: 10px;
+}
+li {
+    color: #5c4033;
+    font-size: 17px;
+    padding: 5px;
+}
+.pet-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 20px;
+}
+.pet-card {
+    width: 220px;
+    text-align: center;
+}
+.pet-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.dog-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.pet-card {
+    width: 200px;
+    text-align: center;
+}
+.pet-card img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+.pet-card p {
+    text-align: center;
+    font-weight: bold;
+}
+body > h3 {
+    text-align: center;
+    color: #8b4513;
+    margin-top: 25px;
+}
+body > p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.pet-food {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.pet-food img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pet-food p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.pet-accessories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.pet-accessries div {
+    text-align: center;
+}
+.pet-accessories img {
+    width: 180px;
+    height: 150px;
+    object-fit:cover;
+    border-radius: 10px;
+}
+.pet-accessories p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.care-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+.care-row div {
+    text-align: center;
+}
+.care-row img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.care-row p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery-row div {
+    text-align: center;
+}
+.gallery-row img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.offers {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.offers div {
+    width: 220px;
+    padding: 15px;
+    background-color: #fff0e0;
+    border-radius: 10px;
+    text-align: center;
+}
+.offers h3 {
+    color: #8b4513;
+    margin-top: 5px;
+}
+.offers p {
+    font-size: 16px;
+}
+form {
+    width: 350px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #fff0e0;
+    border-radius: 15px;
+}
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+form button { 
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 25px;
+    borrder: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button {
+    background-color: #8b4513;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.pet-food {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.pet-food div {
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff0e0;
+    border: 2px solid #deb887;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.pet-food img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.pet-food button {
+    width: 130px;
+    min-height: 40px;
+    padding: 10px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.pet-food bbutton:hover {
+    background-color: #a0522d;
+}
+#cartCount {
+    color: #8b4513;
+    font-size: 22px;
+    font-weight: bold;
+}
+p:has(#cartCount) {
+    background-color: #fff0e0;
+    padding: 12px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #8b4513;
+}
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px auto;
+}
+.search-box input {
+    width: 280px;
+    padding: 12px;
+    border: 2px solid #8b4513;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.search-box button {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search-box button:hover {
+    background-color: #a0522d;
+}
+.pet-accessories {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+} 
+.pet-accessories div {
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff0e0;
+    border: 2px solid #deb887;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.pet-accessories img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.pet-accessories p {
+    font-size: 16px;
+    color: #5c3317;
+}
+.pet-accessories button {
+    background-color: #8b4513;
+    color: White;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pet-accessories button:hover {
+    background-color: #a0522d;
+}
+.care-row {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+.care-row div {
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff0e0;
+    border: 2px solid #deb887;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.care-row img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.care-row button {
+    width: 130px;
+    min-height: 40px;
+    padding: 10px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.care-row button:hover {
+    background-color: #a0522d;
+}
